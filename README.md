@@ -1,0 +1,2 @@
+# Qualgo-Sentiment-Analysis-Engine
+This is the back end python file showing the design of weighing algorithm used to determine the sentiment of a search topic. The search topic is used to extract most relevant Twitter feeds through Twitter API. Then the text content is separated from json metadata and passed to Google Cloud Natural Language API to generate relevant sentiment metrics. The weighing algorithm also considers number of followers of the twitter users. Finally, a three category sentiment-Positive, Neutral, or Negative is returned.
